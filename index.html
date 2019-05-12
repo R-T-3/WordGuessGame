@@ -22,18 +22,25 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6" id="col1">
-        <img src="assets\images\dragon.jpg" alt="dragon">
+        <img src="assets\images\dragon.jpg" alt="dragon" height= 300px width= 400px>
         </div>
         
         <div class="col-md-6" id="col2">
-        <p>PRESS ANY KEY TO GET STARTED!</p>
+        <p id="started" onkeypress="got">PRESS ANY KEY TO GET STARTED!</p>
         <p>WINS</p>
-        <p>CURRENT WORD</p>> 
+        <p id="winsCounter"></p>
+        <p>CURRENT WORD</p>
+        <p id="word"></p>
         <p>NUMBER OF GUESSES REMAINING</p>
+        <p id="remaining"></p>
         <p>LETTERS ALREADY GUESSED</p>
+        <p id="guessed"></p>
         </div>
     </div> 
 </div>
     
 </body>
+<footer>
+    <script src="assets\javascript\game.js"></script>
+</footer>
 </html>
